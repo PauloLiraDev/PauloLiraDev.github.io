@@ -1,0 +1,21 @@
+* {
+    font-family: 'Lobster', sans-serif;
+    margin: 0px;
+    color: white;
+  }
+
+h1 {
+    padding-top: 10px;
+    border: 0.1rem solid rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 60px;
+    text-align: center;
+    width: auto;
+    background: radial-gradient(circle at center, #2e2e2e, #585858, #646262, #585858, #ffffff);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    margin: 10px;
+}
