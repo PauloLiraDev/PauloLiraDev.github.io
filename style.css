@@ -1,23 +1,24 @@
 * {
-    font-family: 'Quattrocento', serif;
+    font-family: 'News Reader', serif;
     margin: 0px;
     padding: 0px;
     color: rgb(255, 255, 255);
   }
 
-body {
+.body {
 
-    background-image: url("https://images.pexels.com/photos/5914530/pexels-photo-5914530.jpeg");
+    background-image: url("https://images.pexels.com/photos/45246/green-tree-python-python-tree-python-green-45246.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
+}
+body {
+    background-color: darkgrey;
 }
 
 h1{
     color: white;
     font-family: 'Lobster', sans-serif;
-    border-bottom: 1px solid white;
-    border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.5s;
@@ -30,14 +31,11 @@ h2{
     font-size: 25px;
 }
 
-p{
-    
-}
-
 a {
     background-color: transparent;
     margin-right: 3px;
     margin-left: 3px;
+    border-radius: 5px;
     font-size: 20px;
     border: 1px solid white;
     cursor: pointer;
@@ -61,4 +59,7 @@ a:hover{
     justify-content: center;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+li{ 
+    margin-left: 20px;
 }
