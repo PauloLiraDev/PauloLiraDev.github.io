@@ -1,21 +1,53 @@
 * {
-    font-family: 'Lobster', sans-serif;
+    font-family: 'Quattrocento', serif;
     margin: 0px;
-    color: white;
+    padding: 0px;
+    color: rgb(255, 255, 255);
   }
 
-h1 {
-    padding-top: 10px;
-    border: 0.1rem solid rgb(255, 255, 255);
-    padding: 10px;
-    font-size: 60px;
-    text-align: center;
-    width: auto;
-    background: radial-gradient(circle at center, #2e2e2e, #585858, #646262, #585858, #ffffff);
+body {
+    
+    background-image: url("https://images.pexels.com/photos/5914530/pexels-photo-5914530.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size: auto;
 }
 
-body, html {
-    margin: 10px;
+h1{
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    border-bottom: 1px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+   }
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    background-color: transparent;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: 0.5s;
+    font-size: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
