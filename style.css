@@ -107,7 +107,7 @@ icons {
     padding-left: 10px;
 }
 .box :first-child{
-    margin-right: 10px;
+    margin-right: 3px;
 }
 
 svg:hover {
@@ -125,5 +125,5 @@ svg:hover {
     font-size: 13px;
   }
 .badge img{
-    margin: 3px;
+    margin: 2px;
 }
